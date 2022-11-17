@@ -1,0 +1,24 @@
+.cta-button {
+    line-height: 46px;
+    display: inline-block;
+
+    padding: 0 80px;
+    margin: 30px 0;
+
+    background-color: $main-color;
+
+    color: #fff;
+    font-weight: 500;
+    font-size: 18px;
+
+    border: 2px solid $main-color;
+    border-radius: 10px;
+
+    transition: background-color ease .6s, color cubic-bezier(.08,1.03,.98,.71) .6s;
+    // transition: all ease 1s;
+
+    &:hover {
+        background-color: transparent;
+        color: $main-color;        
+    }
+}
